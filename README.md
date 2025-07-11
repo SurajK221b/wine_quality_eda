@@ -28,7 +28,12 @@ The dataset contains information about white wine variants of the Portuguese "Vi
 wine_quality_eda/
 ├── wine_quality_eda.ipynb    # Main Jupyter notebook with EDA
 ├── winequality-white.csv     # Dataset file
-└── README.md                 # Project documentation
+├── README.md                 # Project documentation
+└── Plots/                    # Sample visualization outputs
+    ├── correlation_heatmap.png
+    ├── quality_distribution.png
+    ├── feature_histograms.png
+    └── other_visualizations.png
 ```
 
 ## Analysis Summary
@@ -55,6 +60,32 @@ wine_quality_eda/
 - **Pair Plot**: Comprehensive multivariate analysis
 - **Box Plots**: Quality vs alcohol content analysis
 - **Scatter Plots**: Alcohol vs pH with quality color coding
+
+## Sample Visualizations
+
+### Correlation Heatmap
+![Correlation Heatmap](Plots/correlation_heatmap.png)
+*Heatmap showing correlations between all wine features*
+
+### Quality Distribution
+![Quality Distribution](Plots/quality_distribution.png)
+*Bar chart demonstrating the imbalanced distribution of wine quality ratings*
+
+### Feature Distributions
+![Feature Histograms](Plots/feature_histograms.png)
+*Distribution plots for all physicochemical properties with density curves*
+
+### Multivariate Analysis
+![Pair Plot](Plots/pairplot.png)
+*Comprehensive pair plot showing relationships between all variables*
+
+### Quality vs Alcohol Analysis
+![Box Plot](Plots/quality_alcohol_boxplot.png)
+*Box plot showing alcohol content distribution across different quality ratings*
+
+### pH vs Alcohol Relationship
+![Scatter Plot](Plots/ph_alcohol_scatter.png)
+*Scatter plot showing the relationship between pH and alcohol content, colored by quality*
 
 ## Technologies Used
 - **Python 3.x**

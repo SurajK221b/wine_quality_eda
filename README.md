@@ -75,10 +75,6 @@ wine_quality_eda/
 ![Feature Histograms](Plots/feature_histograms.png)
 *Distribution plots for all physicochemical properties with density curves*
 
-### Multivariate Analysis
-![Pair Plot](Plots/pairplot.png)
-*Comprehensive pair plot showing relationships between all variables*
-
 ### Quality vs Alcohol Analysis
 ![Box Plot](Plots/quality_alcohol_boxplot.png)
 *Box plot showing alcohol content distribution across different quality ratings*
